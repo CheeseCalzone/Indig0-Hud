@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-220"		[$WIN32]
+		"xpos"			"c-240"		[$WIN32]
 		"ypos"			"c+20"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"250"
@@ -88,7 +88,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 100"
+		"fillcolor"			"BGBlack"
 	}
 	
 	"PlayerStatusBleedImage"

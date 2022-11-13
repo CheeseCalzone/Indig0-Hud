@@ -8,11 +8,11 @@
 		"ypos"				"0"
 		"zpos"				"-1"
 		"wide"				"85"
-		"tall"				"45"
+		"tall"				"40"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 125"
+		"fillcolor"			"BGBlack"
 	}
 	"HudWeaponLowAmmoImage"
 	{
