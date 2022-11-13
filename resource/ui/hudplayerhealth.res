@@ -5,9 +5,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"50"		[$WIN32]
+		"xpos"			"200"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"10"	[$WIN32]
+		"ypos"			"250"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
@@ -86,8 +86,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudClassHealth"
-		"fgcolor"		"TanDark"
+		"font"			"Hitmo-Regular32"
+		"fgcolor"		"Black"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
@@ -102,7 +102,7 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"%MaxHealth%"
+		"labelText"		""
 		"textAlignment"	"center"	
 		"font"			"DefaultSmall"
 		"fgcolor"		"TanDark"

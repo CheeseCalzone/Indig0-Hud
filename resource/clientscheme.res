@@ -3028,7 +3028,80 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		
+		
+		//FONTS IM USING
+	
+		"Hitmo-Regular12"
+		{
+			"1"
+			{
+				"name"		"Hitmo2.0-Regular" [$WINDOWS]
+				"name"		"Hitmo2.0-Regular"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"Hitmo-Regular16"
+		{
+			"1"
+			{
+				"name"		"Hitmo2.0-Regular" [$WINDOWS]
+				"name"		"Hitmo2.0-Regular"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"Hitmo-Regular24"
+		{
+			"1"
+			{
+				"name"		"Hitmo2.0-Regular" [$WINDOWS]
+				"name"		"Hitmo2.0-Regular"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"Hitmo-Regular32"
+		{
+			"1"
+			{
+				"name"		"Hitmo2.0-Regular" [$WINDOWS]
+				"name"		"Hitmo2.0-Regular"
+				"tall"		"32"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"Hitmo-Regular42"
+		{
+			"1"
+			{
+				"name"		"Hitmo2.0-Regular" [$WINDOWS]
+				"name"		"Hitmo2.0-Regular"
+				"tall"		"42"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"Hitmo-Regular48"
+		{
+			"1"
+			{
+				"name"		"Hitmo2.0-Regular" [$WINDOWS]
+				"name"		"Hitmo2.0-Regular"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
 	}
+	
+	
 
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -5838,6 +5911,26 @@ Scheme
 			{
 				"range" "0x0000 0x007E"
 			}
+		}
+		"8"
+		{
+			"font" "resource/fonts/Hitmo2.0-Light.ttf"
+			"name" "Hitmo2.0-Light"
+		}
+		"9"
+		{
+			"font" "resource/fonts/Hitmo2.0-Regular.ttf"
+			"name" "Hitmo2.0-Regular"
+		}
+		"10"
+		{
+			"font" "resource/fonts/Hitmo2.0-Bold.ttf"
+			"name" "Hitmo2.0-Bold"
+		}
+		"11"
+		{
+			"font" "resource/fonts/Hitmo2.0-Black.ttf"
+			"name" "Hitmo2.0-Black"
 		}
 	}
 }
