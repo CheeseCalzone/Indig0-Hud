@@ -6,15 +6,13 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-220"		[$WIN32]
-		"ypos"			"c+10"	[$WIN32]
-		"xpos"			"32"	[$X360]
-		"ypos"			"r144"	[$X360]
+		"ypos"			"c+20"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"	
-		"HealthBonusPosAdj"	"35"
+		"HealthBonusPosAdj"	"0"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
@@ -23,7 +21,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"9999"
-		"xpos_minmode"	"9999"
+		"xpos_minmode"	"60"
 		"ypos"			"35"
 		"zpos"			"4"
 		"wide"			"51"
@@ -31,52 +29,27 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-	}		
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"9999"
-		"xpos_minmode"	"9999"
-		"ypos"			"33"
-		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+	}
 	"PlayerStatusHealthBonusImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
-		"ypos"			"43"	[$X360]
-		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
-		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
-		"tall"			"35"	[$X360]
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"ControlName"		"ImagePanel"
+		"feildName"			"PlayerStatusHealthBonusImage"
+		"xpos"				"999999"
+		"ypos"				"45"
+		"zpos"				"1"
+		"wide"				"90"
+		"tall"				"10"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/health_bg"
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
-		"xpos_minmode"	"61"
+		"xpos"			"80"
 		"ypos"			"52"	[$WIN32]
-		"ypos"			"55"	[$X360]
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"25"
@@ -91,7 +64,7 @@
 	{
 		"ControlName"   "CExLabel"
 		"feildName"	    "PlayerStatusHealthShadow"
-		"xpos"		    "77"
+		"xpos"		    "81"
 		"ypos"          "53"
 		"zpos"          "4"
 		"wide"          "100"
@@ -110,12 +83,12 @@
 		"xpos"				"90"
 		"ypos"				"45"
 		"zpos"				"-1"
-		"wide"				"70"
+		"wide"				"85"
 		"tall"				"40"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"TransparentBlack"
+		"fillcolor"			"0 0 0 100"
 	}
 	
 	"PlayerStatusBleedImage"
