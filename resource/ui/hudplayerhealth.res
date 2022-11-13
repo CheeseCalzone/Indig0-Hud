@@ -5,15 +5,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"200"		[$WIN32]
-		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"250"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
+		"xpos"			"c-220"		[$WIN32]
+		"ypos"			"c+10"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
 		"wide"			"250"
-		"tall"			"120"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
@@ -24,8 +22,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"75"
-		"xpos_minmode"	"60"
+		"xpos"			"9999"
+		"xpos_minmode"	"9999"
 		"ypos"			"35"
 		"zpos"			"4"
 		"wide"			"51"
@@ -38,8 +36,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
-		"xpos_minmode"	"58"
+		"xpos"			"9999"
+		"xpos_minmode"	"9999"
 		"ypos"			"33"
 		"zpos"			"3"
 		"wide"			"55"
@@ -80,33 +78,46 @@
 		"ypos"			"52"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"100"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Hitmo-Regular32"
-		"fgcolor"		"Black"
+		"font"			"Hitmo-Regular42"
+		"fgcolor"		"White"
 	}
-	"PlayerStatusMaxHealthValue"
+	"PlayerStatusHealthShadow"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"76"
-		"xpos_minmode"	"61"
-		"ypos"			"20"	[$WIN32]
-		"ypos"			"55"	[$X360]
-		"zpos"			"6"
-		"wide"			"50"
-		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"	"center"	
-		"font"			"DefaultSmall"
-		"fgcolor"		"TanDark"
+		"ControlName"   "CExLabel"
+		"feildName"	    "PlayerStatusHealthShadow"
+		"xpos"		    "77"
+		"ypos"          "53"
+		"zpos"          "4"
+		"wide"          "100"
+		"tall"          "25"
+		"visible"       "1"
+		"enabled"       "1"
+		"labelText"     "%Health%"
+		"textAlignment" "center"
+		"font"			"Hitmo-Regular42"
+		"fgcolor"       "Purple"
 	}
+	"HPBG"
+	{
+		"ControlName"		"ImagePanel"
+		"feildName"			"HPBG"
+		"xpos"				"90"
+		"ypos"				"45"
+		"zpos"				"-1"
+		"wide"				"70"
+		"tall"				"40"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"TransparentBlack"
+	}
+	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
