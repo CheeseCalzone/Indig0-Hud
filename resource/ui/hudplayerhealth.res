@@ -80,7 +80,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"feildName"			"HPBG"
-		"xpos"				"90"
+		"xpos"				"999"
 		"ypos"				"45"
 		"zpos"				"-1"
 		"wide"				"85"

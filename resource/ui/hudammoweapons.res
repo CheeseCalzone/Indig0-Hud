@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"feildName"			"AmmoBG"
-		"xpos"				"5"
+		"xpos"				"999"
 		"ypos"				"0"
 		"zpos"				"-1"
 		"wide"				"85"
