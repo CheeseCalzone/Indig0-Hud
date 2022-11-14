@@ -12,7 +12,7 @@
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"60"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -42,9 +42,9 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"25"
-		"ypos"					"26"
+		"ypos"					"40"
 		"zpos"					"2"
-		"wide"					"41"
+		"wide"					"50"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
@@ -63,8 +63,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos"					"5"
+		"xpos"					"30"
+		"ypos"					"20"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	

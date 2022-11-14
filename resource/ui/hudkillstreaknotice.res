@@ -7,28 +7,28 @@
 		"xpos"			"c-250"
 		"ypos"			"50"
 		"zpos"			"0"
-		"wide"			"500"
+		"wide"			"1000"
 		"tall"			"50"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"46 43 42 160"	
+		"bgcolor_override"	"BGBlack"	
 	}
 	
 	"SplashLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SplashLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"Hitmo-Regular24"
 		"labelText"		""
 		"textAlignment" "center"
 		"xpos"			"c-250"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"500"
+		"wide"			"1000"
 		"tall"			"50"
-		"autoResize"	"0"
+		"autoResize"	"1"
 		"fgcolor"		"tanlight"
 	}
 }

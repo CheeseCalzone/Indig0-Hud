@@ -22,6 +22,8 @@ Scheme
 		"Lime"				"28 252 84 255"
 		"Bright_Red"		"255 0 0 255"
 		"BGBlack"			"0 0 0 120"
+		"Uber"				"135 206 235 255"
+		"Gum"				"220 255 185 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -102,7 +104,7 @@ Scheme
 		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"				"117 107 94 255"
-		"TanLight"				"235 226 202 255"
+		"TanLight"				"255 255 255 255"
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
@@ -3100,6 +3102,39 @@ Scheme
 				"name"		"Hitmo2.0-Regular" [$WINDOWS]
 				"name"		"Hitmo2.0-Regular"
 				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"Hitmo-Regular8"
+		{
+			"1"
+			{
+				"name"		"Hitmo2.0-Regular" [$WINDOWS]
+				"name"		"Hitmo2.0-Regular"
+				"tall"		"8"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"Hitmo-Light8"
+		{
+			"1"
+			{
+				"name"		"Hitmo2.0-Light" [$WINDOWS]
+				"name"		"Hitmo2.0-Light"
+				"tall"		"8"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"Hitmo-Light16"
+		{
+			"1"
+			{
+				"name"		"Hitmo2.0-Light" [$WINDOWS]
+				"name"		"Hitmo2.0-Light"
+				"tall"		"16"
 				"weight"	"500"
 				"antialias" "1"
 			}

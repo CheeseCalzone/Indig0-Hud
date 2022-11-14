@@ -35,7 +35,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"40"
 		"zpos"			"2"
 		"wide"			"66"
@@ -124,6 +124,28 @@
 			"brighttext"	"0"
 			"font"			"Hitmo-Regular24"
 			"fgcolor"		"Purple"
+		}
+		"NumPipesLabelDropshadowShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"NumPipesLabelDropshadowShadow"
+			"xpos"			"1"
+			"ypos"			"1"
+			"zpos"			"2"
+			"wide"			"35"
+			"tall"			"20"
+			"tall_lodef"	"28"
+			"autoResize"	"1"
+			"pinCorner"		"2"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"%activepipes%"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"font"			"Hitmo-Regular24"
+			"fgcolor"		"Black"
 		}		
 	}
 }

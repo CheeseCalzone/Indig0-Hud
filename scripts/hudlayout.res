@@ -18,7 +18,7 @@
 		"enabled" "1"
 		"xpos"			"c+55"
 		"ypos"			"c+65"
-		"wide"			"90"
+		"wide"			"96"
 		"tall"			"40"
 	}
 	
@@ -55,12 +55,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"xpos"			"c-35"	[$WIN32]
+		"ypos"			"c0"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -69,17 +65,13 @@
 	
 	HudMedicCharge
 	{
-		"fieldName"		"HudMedicCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
-		"wide"			"200"
-		"tall"			"100"
+		"fieldName" "HudMedicCharge"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"			"c+55"
+		"ypos"			"c+65"
+		"wide"			"90"
+		"tall"			"76"
 	}
 	
 	HudDemomanCharge
@@ -87,7 +79,7 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-35"	[$WIN32]
+		"xpos"			"c-33"	[$WIN32]
 		"ypos"			"c+100"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"76"
@@ -247,7 +239,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"c+10"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -267,9 +259,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"35"
+		"ypos"		"c+10"
+		"wide"	 	"300"
+		"tall"	 	"30"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef" "35"
@@ -284,8 +276,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"335"
-		"wide"	 	"252"
+		"ypos"		"c+150"
+		"wide"	 	"400"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
 		"priority"	"35"
@@ -1025,7 +1017,7 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-40"	[$WIN32]
+		"xpos"			"c-33"	[$WIN32]
 		"ypos"			"c+80"
 		"wide"			"3000"
 		"tall"			"200"
