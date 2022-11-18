@@ -10,7 +10,7 @@
 		"proportionaltoparent"	"1"
 
 		"paintbackground"	"0"
-		"bgcolor_override"	"255 0 0 250"
+		"bgcolor_override"	"255 255 0 250"
 	}
 
 	"text"
@@ -24,7 +24,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"RoundedCorners"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"Hitmo-Regular12"
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"0"
 		"skip_autoresize"	"1"

@@ -2,21 +2,21 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"28"
-		"delta_item_start_y"	"90"
+		"delta_item_x"			"75"
+		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"Hitmo-Regular16"
 	}
 	
 	"AccountBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"AccountBG"
-		"xpos"			"5"
-		"ypos"			"103"
+		"xpos"			"999999"
+		"ypos"			"10"
 		"zpos"			"0"
 		"wide"			"84"
 		"tall"			"42"
@@ -34,7 +34,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"19"
+		"xpos"			"99999"
 		"xpos_lodef"	"12"
 		"ypos"			"116"
 		"ypos_lodef"	"112"
@@ -54,8 +54,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"20"
-		"ypos"			"112"
+		"xpos"			"60"
+		"ypos"			"40"
 		"ypos_lodef"	"121"
 		"zpos"			"2"
 		"wide"			"55"
@@ -69,7 +69,30 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontMediumSmall"
+		"font"			"Hitmo-Regular16"
 		"font_lodef"	"HudFontMedium"
+	}
+	"AccountValueSH"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AccountValueSH"
+		"xpos"			"61"
+		"ypos"			"41"
+		"ypos_lodef"	"121"
+		"zpos"			"2"
+		"wide"			"55"
+		"tall"			"26"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%metal%"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"Hitmo-Regular16"
+		"font_lodef"	"HudFontMedium"
+		"fgcolor"		"Purple"
 	}
 }

@@ -17,9 +17,9 @@
 	
 	"Background"
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"0"
+		"xpos"			"999"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"120"
@@ -28,7 +28,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"255 0 0 120"
 	}
 	
 	"Icon_Dispenser"

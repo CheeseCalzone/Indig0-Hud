@@ -3139,6 +3139,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"Hitmo-Light4"
+		{
+			"1"
+			{
+				"name"		"Hitmo2.0-Light" [$WINDOWS]
+				"name"		"Hitmo2.0-Light"
+				"tall"		"4"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
 	}
 	
 	
