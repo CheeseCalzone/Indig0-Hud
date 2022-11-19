@@ -12,7 +12,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"BGBlack"
+		"fillcolor"			"0 0 0 60"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
