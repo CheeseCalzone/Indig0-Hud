@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CControlPointCountdown"
 		"fieldName"	"Countdown"
-		"xpos"		"0"
+		"xpos"		"10"
 		"ypos"		"0"
 		"zpos"		"4"
 		"wide"		"33"
@@ -34,7 +34,7 @@
 	{
 		"ControlName"	"ImagePanel"		
 		"fieldName"	"CapPlayerImage"
-		"xpos"		"0"
+		"xpos"		"99999"
 		"xpos_minmode"		"0"
 		"ypos"		"0"
 		"ypos_minmode"		"0"
@@ -45,7 +45,7 @@
 		"tall_minmode"		"14"
 		"visible"	"0"
 		"enabled"	"1"
-		"image"		"capture_icon"
+		"image"		""
 		"scaleImage"	"1"
 	}
 
@@ -53,11 +53,11 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"CapPlayerFont"
+		"font"			"Hitmo-Regular16"
 		"font_minmode"			"CapPlayerFontSmall"
-		"xpos"			"15"
+		"xpos"			"10"
 		"xpos_minmode"			"10"
-		"ypos"			"4"
+		"ypos"			"0"
 		"ypos_minmode"			"3"
 		"zpos"			"4"
 		"wide"			"20"
@@ -78,7 +78,7 @@
 	{
 		"ControlName"	"ImagePanel"		
 		"fieldName"	"OverlayImage"
-		"xpos"		"19"
+		"xpos"		"9999"
 		"xpos_minmode"		"12"
 		"ypos"		"0"
 		"ypos_minmode"		"0"
@@ -89,7 +89,7 @@
 		"tall_minmode"		"9"
 		"visible"	"0"
 		"enabled"	"1"
-		"image"		"capture_icon"
+		"image"		""
 		"scaleImage"	"1"
 	}
 	
@@ -97,7 +97,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CPTimerLabel"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"9"
@@ -118,7 +118,7 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"CPTimerBG"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"		"66"

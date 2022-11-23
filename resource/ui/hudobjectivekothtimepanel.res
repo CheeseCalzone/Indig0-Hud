@@ -52,7 +52,7 @@
 			"font"			"HudFontMediumSmall"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 			"xpos"			"23"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
@@ -82,7 +82,7 @@
 				"tall"			"10"
 				"wide"			"35"
 				"wide_minmode"	"35"
-				"font"			"HudFontSmall"
+				"font"			"Hitmo-Regular12"
 				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
 			
@@ -94,7 +94,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"90"
+		"xpos"				"99999"
 		"xpos_minmode"		"70"
 		"ypos"				"0"
 		"ypos_minmode"		"-14"
@@ -134,8 +134,8 @@
 			"font"			"HudFontMediumSmall"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"TanLight"
-			"xpos"			"23"
+			"fgcolor"		"White"
+			"xpos"			"99999"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
@@ -164,7 +164,7 @@
 				"wide"			"35"
 				"wide_minmode"	"35"
 				"tall"			"10"
-				"font"			"HudFontSmall"
+				"font"			"Hitmo-Regular12"
 				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
 			
@@ -172,21 +172,4 @@
 		}	
 	}
 	
-	"ActiveTimerBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"ActiveTimerBG"
-		"xpos"				"0"
-		"ypos"				"9"
-		"ypos_minmode"		"-4"
-		"zpos"				"1"
-		"wide"				"78"
-		"wide_minmode"		"37"
-		"tall"				"33"
-		"tall_minmode"		"21"
-		"visible"			"0"
-		"enabled"			"1"
-		"image"				"../hud/objectives_timepanel_active_bg"	
-		"scaleImage"		"1"	
-	}
 }

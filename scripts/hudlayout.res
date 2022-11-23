@@ -192,12 +192,11 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"			"c-120"		[$WIN32]
+		"ypos"			"c0"	[$WIN32]
+		"zpos"			"2"
+		"wide"			"240"
+		"tall"			"300"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -1458,7 +1457,7 @@
 		"ypos"					"0"
 		"zpos"					"3"
 		"wide"					"f0"
-		"tall"					"f0"
+		"tall"					"20"
 	}
 
 	"QueueHUDStatus"
