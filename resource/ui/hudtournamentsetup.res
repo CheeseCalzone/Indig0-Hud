@@ -2,7 +2,7 @@
 {
 	"HudTournamentSetupBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"HudTournamentSetupBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
+		"fillcolor"		"BGBlack"
 
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -27,8 +27,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"HudFontSmallBold"
-		"xpos"			"8"
+		"font"			"Hitmo-Regular12"
+		"xpos"			"45"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"180"
@@ -46,8 +46,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"HudFontSmallest"
-		"xpos"			"67"
+		"font"			"Hitmo-Regular12"
+		"xpos"			"66"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"74"
@@ -65,6 +65,7 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"TournamentNameEdit"
+		"font"			"Hitmo-Regular12"
 		"xpos"		"8"
 		"ypos"		"27"
 		"wide"		"120"
@@ -90,7 +91,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"HudTournamentNameBG"
-		"xpos"		"8"
+		"xpos"		"45"
 		"ypos"		"28"
 		"wide"		"50"
 		"tall"		"14"
@@ -122,7 +123,7 @@
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"HudFontSmallestBold"
+		"font"			"Hitmo-Regular12"
 		"fgcolor"		"Red"
 	}
 
@@ -145,7 +146,7 @@
 		"brighttext"	"0"
 		"command"		"teamready" 
 		"default"		"1"
-		"font"			"HudFontSmallestBold"
+		"font"			"Hitmo-Regular12"
 		"fgcolor"		"FooterBGBlack"
 	}
 }

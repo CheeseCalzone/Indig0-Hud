@@ -4,16 +4,16 @@
 {	
 	"Notification_Background"
 	{
-		"image"			"../hud/score_panel_blue_bg"
+		"image"			""
 	}
 	
 	"Notification_Icon"	
 	{
-		"icon"			"ico_notify_flag_home"
+		"icon"			""
 	}
 	
 	"Notification_Label"
 	{	
-		"labelText"		"#TF_CTF_OtherTeamCapture"
+		"labelText"		""
 	}
 }
