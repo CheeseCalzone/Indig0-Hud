@@ -6,7 +6,11 @@
 	{	
 		"labelText"		"#TF_Object_tele_entrance_360"
 	}
-	
+	"BuildingIcon"	
+	{
+		"icon"			"obj_status_tele_entrance"
+		"iconColor"		"RedSolid"
+	}
 	"NumberLabel"
 	{	
 		"labelText"		"3"

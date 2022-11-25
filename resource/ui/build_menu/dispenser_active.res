@@ -9,7 +9,8 @@
 	
 	"BuildingIcon"	
 	{
-		"icon"			"hud_menu_dispenser_build"
+		"icon"			"obj_status_dispenser"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"NumberLabel"

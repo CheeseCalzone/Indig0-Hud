@@ -14,7 +14,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Object_dispenser"
+		"labelText"		""
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -32,7 +32,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_item_bg_outline"
+		"icon"			""
 		"iconColor"		"ProgressOffWhiteTransparent"
 	}
 	
@@ -68,7 +68,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
+		"icon"			""
 		"iconColor"		"255 255 255 128"
 	}
 	

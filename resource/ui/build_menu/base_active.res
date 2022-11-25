@@ -5,7 +5,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
 		"font"			"Default"
-		"xpos"			"6"
+		"xpos"			"99999"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"84"
@@ -33,7 +33,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_item_bg"
+		"icon"			""
 		"iconColor"		"ProgressOffWhite"
 	}
 	
@@ -42,14 +42,14 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
 		"xpos"			"22"
-		"ypos"			"33"
+		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"56"
-		"tall"			"56"
+		"wide"			"36"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_sentry_build"
+		"icon"			"obj_status_sentrygun_1"
 		"iconColor"		"255 255 255 255"
 	}
 	
@@ -57,8 +57,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"10"
-		"ypos"			"18"
+		"xpos"			"25"
+		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
@@ -66,17 +66,17 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"TanDarker"
+		"iconColor"		"White"
 	}
 	
 	"CostLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"HudFontSmall"
-		"fgcolor"		"TanDarker"
-		"xpos"			"23"
-		"ypos"			"17"
+		"font"			"Hitmo-Regular12"
+		"fgcolor"		"White"
+		"xpos"			"35"
+		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"13"
@@ -119,7 +119,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
+		"icon"			""
 		"iconColor"		"255 255 255 255"
 	}
 	
@@ -127,9 +127,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"HudMenuNumberFont"
-		"fgcolor"		"Black"
-		"xpos"			"0"
+		"font"			"Hitmo-Regular12"
+		"fgcolor"		"White"
+		"xpos"			"99999"
 		"ypos"			"98"
 		"zpos"			"1"
 		"wide"			"100"

@@ -9,7 +9,8 @@
 	
 	"BuildingIcon"	
 	{
-		"icon"			"hud_menu_tele_exit_build"
+		"icon"			"obj_status_tele_exit"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"NumberLabel"

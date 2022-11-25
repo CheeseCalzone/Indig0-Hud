@@ -5,7 +5,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
 		"font"			"Default"
-		"xpos"			"6"
+		"xpos"			"999999"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"84"
@@ -14,7 +14,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Object_tele_exit_360"
+		"labelText"		"#TF_Object_Sentry"
+		"labelText_lodef"		"#TF_Object_Sentry_360"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -32,7 +33,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_item_bg_outline"
+		"icon"			""
 		"iconColor"		"ProgressOffWhiteTransparent"
 	}
 	
@@ -40,9 +41,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
-		"font"			"Default"
-		"xpos"			"10"
-		"ypos"			"48"
+		"font"			"Hitmo-Regular12"
+		"xpos"			"-10"
+		"ypos"			"20"
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"18"
@@ -54,7 +55,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}	
+	}
 
 	"UnavailableLabel"
 	{	
@@ -74,7 +75,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}	
+	}		
 			
 	"NumberBg"	
 	{
@@ -88,28 +89,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
+		"icon"			""
 		"iconColor"		"255 255 255 128"
 	}
 	
-	"NumberLabel"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel"
-		"font"			"HudMenuNumberFont"
-		"fgcolor"		"Black"
-		"xpos"			"0"
-		"ypos"			"98"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"4"
-		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
-	}
+	
 }

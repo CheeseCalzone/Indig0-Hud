@@ -18,23 +18,23 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"TopBar"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"0"
-		"tall"			"84"	[$WIN32]
+		"tall"			"0"	[$WIN32]
 		"tall_minmode"			"20"	[$WIN32]
 		"tall"			"104"	[$X360]		
-		"wide"			"f0"
+		"wide"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"		"0"
 	}
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
-		"xpos"			"0"
+		"xpos"			"999999"
 		"ypos"			"r70"	[$WIN32]
 		"ypos"			"r90"	[$X360]		
 		"ypos_minmode"	"r20"
@@ -43,7 +43,7 @@
 		"tall"			"90"	[$X360]		
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"		"0"
 	}
@@ -51,7 +51,7 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
-		"xpos"			"0"
+		"xpos"			"99999999"
 		"ypos"			"r70"	[$WIN32]
 		"ypos"			"r90"	[$X360]		
 		"ypos_minmode"	"r0"
@@ -92,7 +92,7 @@
 		"textAlignment_minmode"		"west"
 		"use_proportional_insets_minmode"	"1"
 		"textinsetx_minmode"				"5"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"Hitmo-Regular16"
 		"font_minmode"			"HudFontSmall"
 	}
 	"BuyBackLabel"
@@ -119,7 +119,7 @@
 		"fieldName"		"MapLabel"
 		"font"			"HudFontSmall"
 		"font_hidef"		"HudFontMedium"
-		"xpos"			"r260"	[$WIN32]
+		"xpos"			"99999"	[$WIN32]
 		"ypos"			"16"	[$WIN32]
 		"xpos"			"r285"	[$X360]
 		"ypos"			"32"	[$X360]
@@ -139,7 +139,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
-		"xpos"			"c-85"
+		"xpos"			"99999"
 		"xpos_hidef"	"c-65"
 		"xpos_lodef"	"40"
 		"ypos"			"68"
@@ -169,7 +169,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"5"		[$WIN32]
+		"xpos"			"9999999"		[$WIN32]
 		"ypos"			"10"	[$WIN32]
 		"xpos"			"53"	[$X360]
 		"ypos"			"40"	[$X360]
@@ -191,7 +191,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
-		"xpos"			"80"	[$WIN32]
+		"xpos"			"999999"	[$WIN32]
 		"ypos"			"10"	[$WIN32]
 		"xpos"			"128"	[$X360]
 		"ypos"			"40"	[$X360]		
@@ -212,7 +212,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
-		"xpos"			"5"	[$WIN32]
+		"xpos"			"999999"	[$WIN32]
 		"ypos"			"20"	[$WIN32]
 		"xpos"			"53"	[$X360]
 		"ypos"			"50"	[$X360]		
@@ -233,7 +233,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
-		"xpos"			"80"	[$WIN32]
+		"xpos"			"99999"	[$WIN32]
 		"ypos"			"20"	[$WIN32]
 		"xpos"			"128"	[$X360]
 		"ypos"			"50"	[$X360]		
@@ -254,7 +254,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
-		"xpos"			"5"	[$WIN32]
+		"xpos"			"999999"	[$WIN32]
 		"ypos"			"30"	[$WIN32]
 		"xpos"			"53"	[$X360]
 		"ypos"			"60"	[$X360]		
@@ -275,7 +275,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
-		"xpos"			"80"	[$WIN32]
+		"xpos"			"999999"	[$WIN32]
 		"ypos"			"30"	[$WIN32]
 		"xpos"			"128"	[$X360]
 		"ypos"			"60"	[$X360]		
@@ -296,7 +296,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
-		"xpos"			"15"
+		"xpos"			"999999"
 		"xpos_hidef"	"60"
 		"xpos_lodef"	"45"
 		"ypos"			"r67"

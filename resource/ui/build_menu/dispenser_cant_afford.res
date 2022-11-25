@@ -7,6 +7,12 @@
 		"labelText"		"#TF_Object_dispenser"
 	}
 	
+	"BuildingIcon"	
+	{
+		"icon"			"obj_status_dispenser"
+		"iconColor"		"RedSolid"
+	}
+	
 	"NumberLabel"
 	{	
 		"labelText"		"2"

@@ -4,22 +4,23 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemName"
-		"font"			"Default"
-		"xpos"			"0"
-		"ypos"			"10"
+		"font"			"Hitmo-Regular16"
+		"xpos"			"13"
+		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"45"
+		"wide"			"1000"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Class_Name_Demoman"
-		"textAlignment"	"Center"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"184 56 59 255"
 	}
-		
+	
 	"ClassIcon"	
 	{
 		"ControlName"	"CIconPanel"
@@ -32,9 +33,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_demoman_red"
+		"icon"			""
 	}
-		
+	
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"
@@ -47,7 +48,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
+		"icon"			""
 		"iconColor"		"255 255 255 255"
 	}
 	
@@ -71,15 +72,15 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-
+	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"15"
-		"ypos"			"90"
+		"font"			"Hitmo-Regular16"
+		"fgcolor"		"184 56 59 255"
+		"xpos"			"-3"
+		"ypos"			"17"
 		"zpos"			"0"
 		"wide"			"15"
 		"tall"			"15"

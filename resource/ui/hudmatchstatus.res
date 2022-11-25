@@ -79,7 +79,7 @@
 
 		"model"
 		{
-			"modelname"								"models/vgui/versus_doors.mdl"
+			"modelname"								""
 			"skin"									"0"
 			"angles_x"								"0"
 			"angles_y"								"0"

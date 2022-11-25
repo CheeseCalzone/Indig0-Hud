@@ -9,7 +9,8 @@
 	
 	"BuildingIcon"	
 	{
-		"icon"			"hud_menu_tele_entrance_build"
+		"icon"			"obj_status_tele_entrance"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"NumberLabel"

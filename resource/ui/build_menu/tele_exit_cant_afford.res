@@ -7,6 +7,12 @@
 		"labelText"		"#TF_Object_tele_exit_360"
 	}
 	
+	"BuildingIcon"	
+	{
+		"icon"			"obj_status_tele_exit"
+		"iconColor"		"RedSolid"
+	}
+	
 	"NumberLabel"
 	{	
 		"labelText"		"4"
