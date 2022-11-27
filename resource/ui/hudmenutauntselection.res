@@ -127,51 +127,16 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel1"
-		"xpos"			"22"
+		"xpos"			"20"
 		"ypos"			"85"
-		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
-		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"0 0 0 255"
-		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
-			
-		"model_ypos"	"5"
-		"model_tall"	"38"
-		"text_ypos"		"46"
-		"text_center"	"1"
-		"text_forcesize"	"3"
-		"model_only"		"1"
-			
-		"attriblabel"
-		{
-			"font"			"ItemFontAttribLarge"
-			"visible"		"0"
-		}
-			
-		"itemmodelpanel"
-		{
-			"use_item_rendertarget" "0"
-			"allow_rot"				"0"
-		}
-	}
-
-	"TauntModelPanel2"
-	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"TauntModelPanel2"
-		"xpos"			"73"
-		"ypos"			"85"
-		"zpos"			"100"
+		"zpos"			"57"
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
+		"paintborder"	"0"
 
 		"model_ypos"	"5"
 		"model_tall"	"38"
@@ -179,16 +144,52 @@
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
+			"allow_rot"				"0"
+		}
+	}
+	"TauntModelPanel2"
+	{
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"TauntModelPanel2"
+		"xpos"			"70"
+		"ypos"			"85"
+		"zpos"			"57"
+		"wide"			"50"
+		"tall"			"40"
+		"visible"		"1"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
+
+		"model_ypos"	"5"
+		"model_tall"	"38"
+		"text_ypos"		"46"
+		"text_center"	"1"
+		"text_forcesize"	"3"
+		"model_only"		"1"
+
+		"attriblabel"
+		{
+			"font"			"ItemFontAttribLarge"
+			"visible"		"0"
+		}
+
+		"itemmodelpanel"
+		{
+			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -197,33 +198,34 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel3"
-		"xpos"			"127"
+		"xpos"			"126"
 		"ypos"			"85"
-		"zpos"			"100"
+		"zpos"			"57"
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
-			
+		"paintborder"	"0"
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -235,35 +237,35 @@
 		"fieldName"		"TauntModelPanel4"
 		"xpos"			"182"
 		"ypos"			"85"
-		"zpos"			"100"
+		"zpos"			"57"
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
-			
+		"paintborder"	"0"
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
-
 
 	"TauntModelPanel5"
 	{
@@ -271,31 +273,32 @@
 		"fieldName"		"TauntModelPanel5"
 		"xpos"			"237"
 		"ypos"			"85"
-		"zpos"			"100"
+		"zpos"			"57"
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
-			
+		"paintborder"	"0"
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -306,31 +309,32 @@
 		"fieldName"		"TauntModelPanel6"
 		"xpos"			"292"
 		"ypos"			"85"
-		"zpos"			"100"
+		"zpos"			"57"
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
-			
+		"paintborder"	"0"
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -342,31 +346,32 @@
 		"fieldName"		"TauntModelPanel7"
 		"xpos"			"347"
 		"ypos"			"85"
-		"zpos"			"100"
+		"zpos"			"57"
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
-			
+		"paintborder"	"0"
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -377,31 +382,32 @@
 		"fieldName"		"TauntModelPanel8"
 		"xpos"			"402"
 		"ypos"			"85"
-		"zpos"			"100"
+		"zpos"			"57"
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
-			
+		"paintborder"	"0"
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
