@@ -5,53 +5,32 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"TeamScoresPanel"
 		"xpos"			"9999"
-<<<<<<< Updated upstream
-		"ypos"			"13"
-		"wide"			"200"
-		"tall"			"60"
-=======
 		"ypos"			"0"
 		"wide"			"200"
 		"tall"			"40"
->>>>>>> Stashed changes
 		"visible"		"1"
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueScoreBG"
 			"xpos"			"9999"
-<<<<<<< Updated upstream
-			"ypos"			"15"
-=======
 			"ypos"			"9999"
->>>>>>> Stashed changes
 			"wide"			"135"
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-<<<<<<< Updated upstream
-			"fillcolor"		"HUDBlueTeamSolid"
-=======
 			"border"		"TFFatLineBorderBlueBGMoreOpaque"
->>>>>>> Stashed changes
 		}
 
 		"RedScoreBG"
 		{
-<<<<<<< Updated upstream
-			"ControlName"	"ImagePanel"
-			"fieldName"		"RedScoreBG"
-			"xpos"			"9999"
-			"ypos"			"15"
-=======
 			"ControlName"		"EditablePanel"
 			"fieldName"		"RedScoreBG"
 			"xpos"			"9999"
 			"ypos"			"9999"
->>>>>>> Stashed changes
 			"wide"			"135"
 			"tall"			"40"
 			"autoResize"	"0"
@@ -72,9 +51,6 @@
 			"tall"			"23"
 			"visible"		"1"
 			"enabled"		"1"
-<<<<<<< Updated upstream
-			"fillcolor"		"184 56 59 255"
-=======
 			"bgcolor_override"	"ahudBlue"
 
 			"BLUBG2"
@@ -118,25 +94,12 @@
 				"bgcolor_override"	"ahudDarkRed"
 				"proportionaltoparent"	"1"
 			}
->>>>>>> Stashed changes
 		}
 
 		"BlueTeamLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-<<<<<<< Updated upstream
-			"font"			"Hitmo-Regular32"
-			"labelText"		"%blueteamname%"
-			"textAlignment"		"west"
-			"xpos"			"9999"
-			"ypos"			"25"
-			"zpos"			"10"
-			"wide"			"100"
-			"tall"			"20"
-			"tall_lodef"	"24"
-			"tall_hidef"	"24"
-=======
 			"font"			"aRegular20"
 			"fgcolor"		"ahudWhite"
 			"labelText"		"%blueteamname%"
@@ -146,7 +109,6 @@
 			"zpos"			"3"
 			"wide"			"56"
 			"tall"			"23"
->>>>>>> Stashed changes
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -161,20 +123,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-<<<<<<< Updated upstream
-			"font"			"Hitmo-Regular32"
-			"labelText"		"%blueteamscore%"
-			"textAlignment"		"east"
-			"xpos"			"9999"
-			"ypos"			"0"
-=======
 			"font"			"aRegular34"
 			"fgcolor"		"ahudWhite"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"-6"
 			"ypos"			"17"
->>>>>>> Stashed changes
 			"zpos"			"3"
 			"wide"			"44"
 			"tall"			"34"
@@ -191,21 +145,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-<<<<<<< Updated upstream
-			"font"			"Hitmo-Regular32"
-			"fgcolor"		"Black"
-			"labelText"		"%blueteamscore%"
-			"textAlignment"		"east"
-			"xpos"			"9999"
-			"ypos"			"1"
-=======
 			"font"			"aRegularShadow34"
 			"fgcolor"		"ShadowBlack"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"-2"
 			"ypos"			"-2"
->>>>>>> Stashed changes
 			"zpos"			"3"
 			"wide"			"44"
 			"tall"			"34"
@@ -223,13 +168,8 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"BlueLeaderAvatar"
-<<<<<<< Updated upstream
-			"xpos"			"9999"
-			"ypos"			"14"
-=======
 			"xpos"			"2"
 			"ypos"			"2"
->>>>>>> Stashed changes
 			"zpos"			"5"
 			"wide"			"35"
 			"tall"			"35"
@@ -244,13 +184,8 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BlueLeaderAvatarBG"
-<<<<<<< Updated upstream
-			"xpos"			"9999"
-			"ypos"			"12"
-=======
 			"xpos"			"0"
 			"ypos"			"0"
->>>>>>> Stashed changes
 			"zpos"			"4"
 			"wide"			"39"
 			"tall"			"39"
@@ -263,12 +198,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-<<<<<<< Updated upstream
-			"font"			"Hitmo-Regular32"
-=======
 			"font"			"aRegular20"
 			"fgcolor"		"ahudWhite"
->>>>>>> Stashed changes
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"			"-6"
@@ -290,12 +221,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-<<<<<<< Updated upstream
-			"font"			"Hitmo-Regular32"
-=======
 			"font"			"aRegular34"
 			"fgcolor"		"ahudWhite"
->>>>>>> Stashed changes
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"-6"
@@ -316,13 +243,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-<<<<<<< Updated upstream
-			"font"			"Hitmo-Regular32"
-			"fgcolor"		"Black"
-=======
 			"font"			"aRegularShadow34"
 			"fgcolor"		"ShadowBlack"
->>>>>>> Stashed changes
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"-2"
@@ -375,13 +297,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"WinPanelBGBorder"
-<<<<<<< Updated upstream
-		"xpos"			"99999"
-		"ypos"			"70"
-=======
 		"xpos"			"cs-0.5"
 		"ypos"			"99999"
->>>>>>> Stashed changes
 		"zpos"			"0"
 		"wide"			"p0.94"
 		"tall"			"185"
@@ -490,21 +407,6 @@
 		"fieldName"		"WinReasonLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
-<<<<<<< Updated upstream
-		"ypos"			"89"
-		"zpos"			"1"
-		"wide"			"268"
-		"tall"			"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%WinReasonLabel%"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"centerwrap"	"1"
-=======
->>>>>>> Stashed changes
 	}
 	"DetailsLabel"
 	{
@@ -530,23 +432,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ShadedBar"
-<<<<<<< Updated upstream
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"853"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 150"
-		"fillcolor_lodef"		"0 0 0 200"
-		"PaintBackgroundType"	"0"
-=======
 		"xpos"			"9999"
->>>>>>> Stashed changes
 	}
 
 	"TopPlayersLabel"
@@ -554,66 +440,20 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
 		"font"			"ScoreboardVerySmall"
-<<<<<<< Updated upstream
-		"xpos"			"99999"
-		"ypos"			"114"
-		"zpos"			"3"
-		"wide"			"200"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%TopPlayersLabel%"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-=======
 		"xpos"			"9999"
->>>>>>> Stashed changes
 	}
 	"PointsThisRoundLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
 		"font"			"ScoreboardVerySmall"
-<<<<<<< Updated upstream
-		"xpos"			"99999"
-		"ypos"			"114"
-		"zpos"			"3"
-		"wide"			"140"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Winpanel_PointsThisRound"
-		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-=======
 		"xpos"			"9999"
->>>>>>> Stashed changes
 	}
 	"HorizontalLine"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HorizontalLine"
 		"xpos"			"9999"
-<<<<<<< Updated upstream
-		"ypos"			"129"
-		"zpos"			"3"
-		"wide"			"260"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"250 234 201 255"
-		"PaintBackgroundType"	"0"
-=======
->>>>>>> Stashed changes
 	}
 	"Player1Badge"
 	{
@@ -950,7 +790,7 @@
 	{
 		"ControlName"	"CTFBadgePanel"
 		"fieldName"		"KillStreakPlayer1Badge"
-		"xpos"			"11"
+		"xpos"			"99999"
 		"ypos"			"211"
 		"zpos"			"3"
 		"wide"			"25"
