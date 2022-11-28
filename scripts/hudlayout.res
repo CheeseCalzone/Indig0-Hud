@@ -836,12 +836,21 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
+<<<<<<< Updated upstream
 		"xpos"					"0"
 		"ypos"					"460"
 		"wide"					"853"
 		"tall"					"20"
 		"zpos"					"0"
 		"proportionaltoparent"	"0"
+=======
+		"xpos"					"c-427"
+		"ypos"					"c+220"
+		"wide"					"950"
+		"tall"					"20"
+		"zpos"					"-3"
+		"proportionaltoparent"	"1"
+>>>>>>> Stashed changes
 	}
 
 	ArenaWinPanel
