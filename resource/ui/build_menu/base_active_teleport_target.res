@@ -28,12 +28,12 @@
 		"xpos"			"4"
 		"ypos"			"14"
 		"zpos"			"0"
-		"wide"			"98"
-		"tall"			"105"
+		"wide"			"50"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_item_bg"
+		"icon"			""
 		"iconColor"		"ProgressOffWhite"
 	}
 	
@@ -41,11 +41,11 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
-		"xpos"			"22"
+		"xpos"			"0"
 		"ypos"			"28"
 		"zpos"			"2"
-		"wide"			"56"
-		"tall"			"56"
+		"wide"			"36"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -84,7 +84,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
+		"icon"			""
 		"iconColor"		"255 255 255 255"
 	}
 	
@@ -103,7 +103,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"1"
+		"labelText"		""
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"

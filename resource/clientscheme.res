@@ -3150,6 +3150,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"TF2-Icons"
+		{
+			"1"
+			{
+				"name"		"TF2 Icons" [$WINDOWS]
+				"name"		"TF2 Icons"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
 	}
 	
 	
@@ -5982,6 +5993,11 @@ Scheme
 		{
 			"font" "resource/fonts/Hitmo2.0-Black.ttf"
 			"name" "Hitmo2.0-Black"
+		}
+		"12"
+		{
+			"font" "resource/fonts/TF2 Icons.ttf"
+			"name" "TF2 Icons"
 		}
 	}
 }

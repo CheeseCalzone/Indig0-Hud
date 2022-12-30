@@ -80,7 +80,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-33"	[$WIN32]
-		"ypos"			"c+100"	[$WIN32]
+		"ypos"			"c+80"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"76"
 		"tall"			"100"
@@ -110,7 +110,8 @@
 		"fieldName"		"HudFlameRocketCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
+		"xpos"			"r26"	[$WIN32]
+		"xpos"			"r26"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
@@ -399,7 +400,17 @@
 
 	HudDamageIndicator
 	{
-
+		"fieldName" "HudDamageIndicator"
+		"visible" "1"
+		"enabled" "1"
+		"MinimumWidth" "10"
+		"MaximumWidth" "10"
+		"StartRadius" "80"
+		"EndRadius" "80"
+		"MinimumHeight" "50"
+		"MaximumHeight" "50"
+		"MinimumTime" "1"
+		
 	}
 
 	HudCommentary
@@ -984,8 +995,8 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-125"
-		"ypos"			"c-55"
+		"xpos"			"c-45"
+		"ypos"			"c+120"
 		"wide"			"250"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -1012,7 +1023,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-33"	[$WIN32]
-		"ypos"			"c+80"
+		"ypos"			"c+60"
 		"wide"			"3000"
 		"tall"			"200"
 	}	

@@ -4,16 +4,12 @@
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"#TF_Object_Tele_Exit_360"
+		"labelText"		""
 	}
 	
 	"BuildingIcon"	
 	{
-		"icon"			"hud_menu_tele_exit_build"
+		"icon"			"obj_status_tele_exit"
 	}
 	
-	"NumberLabel"
-	{	
-		"labelText"		"2"
-	}
 }

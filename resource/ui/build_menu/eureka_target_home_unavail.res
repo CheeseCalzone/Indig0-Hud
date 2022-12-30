@@ -7,8 +7,4 @@
 		"labelText"		"#Hud_Menu_Teleport_Base"
 	}
 	
-	"NumberLabel"
-	{	
-		"labelText"		"1"
-	}
 }

@@ -14,7 +14,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Object_Sentry"
+		"labelText"		""
 		"labelText_lodef"		"#TF_Object_Sentry_360"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
@@ -25,7 +25,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
-		"xpos"			"4"
+		"xpos"			"9999"
 		"ypos"			"14"
 		"zpos"			"0"
 		"wide"			"98"
@@ -88,7 +88,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
+		"icon"			""
 		"iconColor"		"255 255 255 255"
 	}
 	
@@ -107,7 +107,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"1"
+		"labelText"		""
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"

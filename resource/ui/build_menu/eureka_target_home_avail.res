@@ -4,16 +4,13 @@
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"#Hud_Menu_Teleport_Base"
+		"labelText"		""
 	}
 	
 	"BuildingIcon"	
 	{
-		"icon"			"eureka_teleport_home"
+		"icon"			"obj_status_dispenser"
+		
 	}
 	
-	"NumberLabel"
-	{	
-		"labelText"		"1"
-	}
 }

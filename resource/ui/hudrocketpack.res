@@ -6,19 +6,19 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r95"	[$WIN32]
+		"xpos"			"c-33"	[$WIN32]
 		"xpos_minmode"	"r77"	[$WIN32]
-		"ypos"			"r105"	[$WIN32]
+		"ypos"			"c+30"	[$WIN32]
 		"ypos_minmode"	"r120"	[$WIN32]
-		"wide"			"94"
-		"tall"			"45"
+		"wide"			"100"
+		"tall"			"44"
 	}
 
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"4"
+		"xpos"			"9999"
 		"xpos_minmode"	"28"
 		"ypos"			"0"
 		"ypos_minmode"	"28"
@@ -40,7 +40,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"2"
+		"xpos"			"99999"
 		"ypos"			"-2"
 		"ypos_minmode"	"15"
 		"zpos"			"2"
@@ -57,7 +57,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemEffectMeterLabel"
-		"xpos"			"32"
+		"xpos"			"99999"
 		"xpos_minmode"	"32"
 		"ypos"			"12"
 		"ypos_minmode"	"27"
@@ -82,14 +82,14 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
 		"font"			"Default"
-		"xpos"			"26"
+		"xpos"			"0"
 		"xpos_minmode"	"26"
 		"ypos"			"28"
 		"ypos_minmode"	"40"
 		"zpos"			"2"
-		"wide"			"22"
-		"wide_minmode"	"22"
-		"tall"			"8"				
+		"wide"			"32"
+		"wide_minmode"	"56"
+		"tall"			"4"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -97,7 +97,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"White"
+		"bgcolor_override" "0 0 0 255"
+		"fgcolor_override" "255 255 255 255"
 	}
 
 	"ItemEffectMeter2"
@@ -105,13 +106,13 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter2"
 		"font"			"Default"
-		"xpos"			"52"
+		"xpos"			"34"
 		"xpos_minmode"	"52"
 		"ypos"			"28"
 		"ypos_minmode"	"40"
 		"zpos"			"2"
-		"wide"			"22"
-		"tall"			"8"				
+		"wide"			"32"
+		"tall"			"4"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -119,6 +120,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"White"
+		"bgcolor_override" "0 0 0 255"
+		"fgcolor_override" "255 255 255 255"
 	}
 }

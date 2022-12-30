@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelContainer"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"xpos"			"-70"
+		"ypos"			"0"
 		"zpos"			"3"		
 		"wide"			"f0"
 		"tall"			"f0"
@@ -58,16 +58,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fov"			"70"
+			"fov"			"100"
 			"proportionaltoparent"	"1"
-
-			if_mini
-			{
-				"xpos"		"cs-0.5-228"
-				"ypos"		"cs-0.5"
-				"wide"		"200"
-				"tall"		"200"
-			}
 
 			"paintbackground"	"0"
 
@@ -180,40 +172,46 @@
 			"backgroundenabled"	"0"
 		}
 	}
+	"BG"
+	{
+		"ControlName"		"ImagePanel"
+		"feildName"			"BG"
+		"xpos"				"-40"
+		"ypos"				"0"
+		"zpos"				"-1"
+		"wide"				"300"
+		"tall"				"300"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"20 20 20 180"
+	}
 
 	"BGPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"rs1"
-		"ypos"			"20"
+		"xpos"			"-40"
+		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"260"
-		"tall"			"f40"
+		"wide"			"400"
+		"tall"			"400"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
-
-		if_mini
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"tall"			"35"
-			"wide"			"505"
-		}
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
-			"ypos"			"5"
-			"wide"			"f0"
+			"xpos"			"50"
+			"ypos"			"0"
+			"wide"			"400"
 			"zpos"			"100"
-			"tall"			"20"
+			"tall"			"24"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallishBold"
+			"font"			"Hitmo-Regular24"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"
@@ -229,75 +227,43 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"65"
-			"ypos"			"19"
-			"wide"			"195"
-			"zpos"			"100"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
-			"labelText"		"%desc1%"
-			"proportionaltoparent"	"1"
-
-			if_mini
-			{
-				"xpos"	"67"
-				"ypos"	"4"
-			}
-
-			"fonts"
-			{
-				"0"		"HudFontSmallestBold"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
-			}
-		}
-
-		"DescLine2"
-		{
-			"ControlName"	"CAutoFittingLabel"
-			"fieldName"		"DescLine2"
-			"xpos"			"65"
+			"xpos"			"95"
 			"ypos"			"29"
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
+			"font"			"Hitmo-Regular12"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north-west"
+			"labelText"		"%desc1%"
+			"proportionaltoparent"	"1"
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"95"
+			"ypos"			"39"
+			"wide"			"195"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"Hitmo-Regular12"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
-
-			if_mini
-			{
-				"xpos"	"67"
-				"ypos"	"4"
-			}
-
-			"fonts"
-			{
-				"0"		"HudFontSmallestBold"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
-			}
-
-			"colors"
-			{
-				"1"		"CreditsGreen"
-				"2"		"TanLight"
-			}
 		}
 
 		"StatsContainer"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-5"
+			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"f70"
 			"tall"			"f0"
@@ -314,9 +280,9 @@
 			{
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-3"
-				"wide"			"p1"
+				"xpos"			"90"
+				"ypos"			"40"
+				"wide"			"100"
 				"tall"			"30"
 				"proportionaltoparent"	"1"
 
@@ -328,12 +294,12 @@
 					"fieldName"		"CurrentXPLabel"
 					"xpos"			"0"
 					"ypos"			"rs1"
-					"zpos"			"0"
+					"zpos"			"2"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"1"
-					"enabled"		"1"
-					"font"			"ItemFontAttribSmall"
+					"visible"		"0"
+					"enabled"		"0"
+					"font"			"Hitmo-Regular8"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
@@ -344,18 +310,18 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"NextLevelXPLabel"
-					"xpos"			"rs1"
+					"xpos"			"100"
 					"ypos"			"rs1"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"1"
-					"enabled"		"1"
-					"font"			"ItemFontAttribSmall"
+					"visible"		"0"
+					"enabled"		"0"
+					"font"			"Hitmo-Regular8"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
-					"proportionaltoparent"	"1"
+					"proportionaltoparent"	"0"
 				}
 
 				"ProgressBarsContainer"
@@ -408,7 +374,7 @@
 						"tall"			"f0"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
-						"border"		"InnerShadowBorderThin"
+						"border"		""
 					}
 				}
 			}
@@ -417,28 +383,23 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
-				"xpos"			"0"
-				"ypos"			"5"
-				"wide"			"f0"
-				"tall"			"p0.45"
-				"visible"		"0"
+				"xpos"			"60"
+				"ypos"			"70"
+				"wide"			"200"
+				"tall"			"45"
+				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"0 0 0 150"
-
-				"if_mini"
-				{
-					"visible"		"0"
-				}
 
 				"Frame"
 				{
 					"ControlName"	"EditablePanel"
 					"fieldName"		"Frame"
-					"xpos"			"0"
+					"xpos"			"-30"
 					"ypos"			"0"
 					"zpos"			"10"
-					"wide"			"f0"
-					"tall"			"f0"
+					"wide"			"250"
+					"tall"			"400"
 					"proportionaltoparent"	"1"
 					"border"		"InnerShadowBorder"
 				}
@@ -451,13 +412,13 @@
 					"ControlName"	"Label"
 					"fieldName"		"GamesLabel"
 					"xpos"			"10"
-					"ypos"			"0"
+					"ypos"			"5"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
+					"font"			"Hitmo-Regular12"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_games%"
@@ -469,13 +430,13 @@
 					"ControlName"	"Label"
 					"fieldName"		"KillsLabel"
 					"xpos"			"10"
-					"ypos"			"10"
+					"ypos"			"15"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
+					"font"			"Hitmo-Regular12"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_kills%"
@@ -487,13 +448,13 @@
 					"ControlName"	"Label"
 					"fieldName"		"DeathsLabel"
 					"xpos"			"10"
-					"ypos"			"20"
+					"ypos"			"25"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
+					"font"			"Hitmo-Regular12"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_deaths%"
@@ -505,14 +466,14 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"DamageLabel"
-					"xpos"			"c-20"
-					"ypos"			"0"
+					"xpos"			"100"
+					"ypos"			"5"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
+					"font"			"Hitmo-Regular12"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_damage%"
@@ -523,14 +484,14 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"HealingLabel"
-					"xpos"			"c-20"
-					"ypos"			"10"
+					"xpos"			"100"
+					"ypos"			"15"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
+					"font"			"Hitmo-Regular12"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_healing%"
@@ -541,14 +502,14 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"SupportLabel"
-					"xpos"			"c-20"
-					"ypos"			"20"
+					"xpos"			"100"
+					"ypos"			"25"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
+					"font"			"Hitmo-Regular12"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_support%"
@@ -565,8 +526,8 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"1"
-					"enabled"		"1"
+					"visible"		"0"
+					"enabled"		"0"
 					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"

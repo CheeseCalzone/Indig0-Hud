@@ -78,7 +78,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"3"
+		"wide"										"1"
 		"tall"										"11"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -111,7 +111,7 @@
 		"ypos"										"-50"
 		"zpos"										"1"
 		"wide"										"1"
-		"tall"										"250"
+		"tall"										"550"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"0"
@@ -119,7 +119,7 @@
 		"tabPosition"								"0"
 		"labelText"									""
 		"fillcollor"								"255 0 0 255"
-		"scaleImage"								"1"
+		"scaleImage"								"0"
 		"proportionaltoparent"						"1"
 	}
 
